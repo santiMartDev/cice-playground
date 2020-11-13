@@ -1,0 +1,58 @@
+{
+  "name": "todo-redux-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "1.4.0",
+    "@testing-library/jest-dom": "5.11.4",
+    "@testing-library/react": "11.1.0",
+    "@testing-library/user-event": "12.1.8",
+    "@types/jest": "26.0.14",
+    "@types/node": "14.11.10",
+    "@types/react": "16.9.53",
+    "@types/react-dom": "16.9.8",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-redux": "7.2.1",
+    "react-scripts": "3.4.3",
+    "redux": "4.0.5",
+    "redux-thunk": "2.3.0",
+    "typescript": "4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,md}\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-redux": "7.1.9",
+    "husky": "4.3.0",
+    "lint-staged": "10.4.2",
+    "prettier": "2.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,css,md}": "prettier --write"
+  }
+}

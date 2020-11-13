@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+}
+
+.aside, header {
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+}
+
+.article {
+  flex: 4;
+}
+
+
+

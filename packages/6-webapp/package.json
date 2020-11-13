@@ -1,0 +1,15 @@
+{
+  "name": "webapp",
+  "private": true,
+  "version": "1.0.0",
+  "description": "webapp",
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": [],
+  "author": "César Alberca <cesalberca@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "11.3.2"
+  }
+}

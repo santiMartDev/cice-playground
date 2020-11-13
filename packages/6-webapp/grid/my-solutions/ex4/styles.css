@@ -1,0 +1,29 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "aside1 article aside2"
+    "footer footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.aside1 {
+  grid-area: aside1;
+}
+
+.article {
+  grid-area: article;
+}
+
+.aside2 {
+  grid-area: aside2;
+}
+
+.footer {
+  grid-area: footer;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "solid",
+  "version": "1.0.0",
+  "description": "SOLID principles",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.12.3",
+    "@babel/plugin-proposal-class-properties": "7.12.1",
+    "@babel/plugin-proposal-private-methods": "7.12.1",
+    "@babel/preset-env": "7.12.1",
+    "@babel/preset-typescript": "7.12.1",
+    "@types/jest": "26.0.14",
+    "babel-jest": "26.5.2",
+    "jest": "26.5.3"
+  },
+  "dependencies": {
+    "packages": "0.0.8",
+    "ts-mockito": "2.6.1"
+  }
+}

@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex: 2;
+}
+
+.header, .footer, .span-row-1 {
+  flex: 1;
+}
+
+.span-row-2 {
+  flex: 2;
+}
+
