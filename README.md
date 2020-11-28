@@ -9,12 +9,20 @@ This repository holds the contents of the [Master in Fullstack Web](https://www.
 
 ## Installation
 
-1. Install [NodeJS](https://nodejs.org/)
-2. Clone project
-3. Open terminal
-4. `cd` into the project's directory
-5. Install dependencies with: `npm i`
-6. Run bootstrap with: `npm run bootstrap`
+1. Install [NodeJS](https://nodejs.org/).
+2. Clone project.
+3. Open terminal.
+4. `cd` into the project's directory.
+5. Install dependencies with: `npm i`.
+6. Run bootstrap with: `npm run bootstrap`.
+
+## Collaboration
+
+1. Fork this project.
+2. Create a branch from `main` where you'll work, `dev` for example.
+3. Track remote branch: `git remote add upstream https://github.com/cice-classroom/cice-playground.git`.
+4. To update changes from upstream: `git pull upstream main`.
+5. To propose changes you have to go to `main` branch, commit changes and then, on Github and make a Pull request from `main` to `main`.
 
 ## Development
 
